@@ -1,0 +1,14 @@
+﻿@model MVCPhones.Data.Phone
+@{
+}
+<h2>Delete</h2>
+<form asp-action="Delete">
+    ID:<input asp-for="Id" readonly /><br />
+    Make:<input asp-for="Make" readonly/><br />
+    Model:<input asp-for="Model" readonly/><br />
+    RAM:<input asp-for="RAM" readonly/><br/>
+    PublishDate:<input asp-for="PublishDate" type="text" step="Any" readonly/><br />
+    Created:<input asp-for="Created" readonly /><br />
+    Modified:<input asp-for="Modified" readonly /><br />
+    <button type="submit" value="Delete" />
+</form>

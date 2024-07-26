@@ -1,0 +1,10 @@
+﻿@model MVCPhones.Data.Phone
+@{
+}
+<form asp-action="Add">
+	Make:<input asp-for="Make"/><br />
+	Model:<input asp-for="Model"/><br />
+	RAM:<input asp-for="RAM"/><br />
+	PublishDate:<input asp-for="PublishDate" step="Any"/><br />
+	<button type="submit" value="Add">
+</form>

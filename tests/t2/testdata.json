@@ -1,0 +1,31 @@
+[
+  {
+    "data": "/phones",
+    "result": [
+      {
+          "Make": "Apple",
+          "Model": "iPhone 13"
+      },
+      {
+          "Make": "Apple",
+          "Model": "iPhone 13 Max"
+      },
+      {
+          "Make": "Demo",
+          "Model": "One"
+      },
+      {
+          "Make": "Motorola",
+          "Model": "X"
+      },
+      {
+          "Make": "Nokia",
+          "Model": "8"
+      },
+      {
+          "Make": "Samsung",
+          "Model": "Galaxy S22"
+      }
+    ]
+  }
+]

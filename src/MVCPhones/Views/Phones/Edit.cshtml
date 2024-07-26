@@ -1,0 +1,14 @@
+﻿@model MVCPhones.Data.Phone
+@{
+}
+<h2>Edit</h2>
+<form asp-action="Edit">
+	ID:<input asp-for="Id" readonly/><br />
+	Make:<input asp-for="Make" value=""/><br />
+	Model:<input asp-for="Model" value=""/><br />
+	RAM:<input asp-for="RAM" value=""/><br />
+	PublishDate:<input asp-for="PublishDate" type="text" step="Any" value=""/><br />
+	Created:<input asp-for="Created" readonly/><br />
+	Modified:<input asp-for="Modified" readonly/><br />
+	<button type="submit" value="Edit"/>
+</form>

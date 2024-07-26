@@ -1,0 +1,43 @@
+﻿@model IEnumerable<MVCPhones.Data.Phone>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<h1 class="display-4">Welcome to the Modern Phone database in MVC 2024 edition</h1>
+<table>
+        <tr>
+            <th>
+                ID
+            </th>
+            <th>
+                MAKE
+            </th>
+            <th>
+                MODEL
+            </th>
+            <th>
+                RAM
+            </th>
+            <th>
+                PublishDate
+            </th>
+            <th>
+                Created
+            </th>
+            <th>
+                Modified
+            </th>
+        </tr>
+        @foreach(var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Make</td>
+                <td>@item.Model</td>
+                <td>@item.RAM</td>
+                <td>@item.PublishDate</td>
+                <td>@item.Modified</td>
+                <td>@item.Created</td>
+            </tr>
+        }
+</table>

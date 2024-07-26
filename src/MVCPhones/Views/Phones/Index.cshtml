@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MVCPhones.Data.Phone>
+@{
+
+}
+<h1>Phones index</h1>
+<ul class="phones">
+	@foreach(var item in Model)
+	{
+		<li>@item.Make @item.Model <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> <a asp-action="Delete" asp-route-id="@item.Id">Delete</a></li>
+	}
+</ul>
+<a asp-action="Add" class="btn">Add</a>
